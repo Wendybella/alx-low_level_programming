@@ -1,9 +1,8 @@
-#!/bin/bash
 #include <stdio .h>
 /**
- * main - entry point of my code
+ * main - entry point
  * betty is awesome
- * Return; 0 if completed successfully
+ * Return: 0 when function completes
  */
 int main(void)
 {
