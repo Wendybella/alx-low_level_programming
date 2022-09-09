@@ -6,13 +6,12 @@
  */
 int main(void) 
 {
-
-	int n;
-if (n == 0)
-printf("zero\n", n);
-else if (n < 0)
-printf("negative\n", n);
-else
-printf("positive\n", n);
+int n;
+if (n == 0) {
+printf("%d zero\n", n); }
+else if (n < 0) {
+printf("%d negative\n", n); }
+else {
+printf("%d positive\n", n);
 return (0);
 }
