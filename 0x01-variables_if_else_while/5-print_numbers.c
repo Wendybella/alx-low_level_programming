@@ -4,14 +4,14 @@
  * print single digits numbers
  * Return: always 0 success
  */
-int main()
+int main(void)
 {
-int n=48;
-while(n<58)
+int n = 58;
+while (n < 68)
 {
-putchar(n);
+putchar (n);
 n++;
 }
-putchar(10);
+putchar (10);
 return (0);
 }
