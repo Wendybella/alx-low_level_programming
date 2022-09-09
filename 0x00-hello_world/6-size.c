@@ -12,5 +12,7 @@ printf("Size of a long: %zu byte(s)\n", sizeof(long));
 printf("Size of a int: %zu byte(s)\n", sizeof(int));
 printf("Size of float: %zu bytes\n", sizeof(float));
 printf("Size of short: %zu byte(s)\n", sizeof(short));
+printf("Size of unsigned long: %zu byte(s)\n", sizeof(unsigned long));
+printf("Size of unsigned int %zu byte(s)\n", sizeof(unsigned int))
 return (0);
 }
