@@ -12,4 +12,3 @@ while(n<10)
 printf("n is: %d\n", n);
 n=n+1;
 }
-}
