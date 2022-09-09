@@ -1,18 +1,23 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <stdlib.h>
+
 /**
- * main - entry point
- * might be negative or postive
- * Return: always 0 (success)
+ * main - decides if number is positve or not
+ *
+ * a random number will be assigned to the variable n each time by the program
+ * it is executed
+ *
+ * Return: always 0
  */
-int main(void) 
+int main(void)
 {
-int n;
-printf("value of n");
-if (n == 0) 
-printf("%d zero", n);
-else if (n < 0)
-printf("%d negative", n);
-else
-printf("%d positive", n);
-return (0);
+	int n;
+	n=()
+	if (n == 0)
+	printf("%d will be zero\n", n);
+	else if (n < 0)
+	printf("%d will be negative\n", n);
+	else
+	printf("%d will be positive\n", n);
+	return (0);
 }
