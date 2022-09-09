@@ -7,6 +7,8 @@
 int main(void) 
 {
 int n;
+printf("value of n");
+scanf("%d" &n);
 if (n == 0) {
 printf("%d zero\n", n); }
 else if (n < 0) {
