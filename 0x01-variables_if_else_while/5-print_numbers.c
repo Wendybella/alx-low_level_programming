@@ -6,8 +6,9 @@
  */
 int main()
 {
-int n=0;
-while(n<10)
+int n;
+n=69
+while(n<79)
 {
 putchar(n);
 n++;
