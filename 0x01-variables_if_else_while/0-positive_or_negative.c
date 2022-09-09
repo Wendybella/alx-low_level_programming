@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main-entry point
  * might be negative or postive,i choose postive
  * Return: 0 (printed successfully)
  */
-int main(void) {
+int main(void)
+{
 int n;
 printf("value of n");
 scanf("%d" &n);
