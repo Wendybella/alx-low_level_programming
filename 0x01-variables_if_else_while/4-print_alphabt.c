@@ -4,7 +4,7 @@
  * print alphabets in lowercase
  * Return: 0 normally
  */
-int main (void)
+int main(void)
 {
 int z = 97;
 while (z < 123)
