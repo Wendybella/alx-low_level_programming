@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-int a, B
-a = 97
-B = 65
+int a, B;
+a = 97;
+B = 65;
 while ( a < 123)
 {
 putchar (a);
