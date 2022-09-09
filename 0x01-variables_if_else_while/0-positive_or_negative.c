@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main-entry point
  * might be negative or postive,i choose postive
@@ -10,11 +11,12 @@ int main(void)
 {
 int n;
 printf("value of n");
-scanf("%d" &n);
+scanf("%d" & n);
 if (n > 0)
 printf("%d is postive\n",n);
 Else if (n==0)
 printf("%d is Zero\n",n);
 Else
 printf("%d is negative\n",n);
+return 0;
 }
