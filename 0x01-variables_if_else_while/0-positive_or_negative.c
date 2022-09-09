@@ -9,10 +9,10 @@ int main(void)
 int n;
 printf("value of n");
 if (n == 0) 
-printf("%d zero\n", n);
+printf("%d zero", n);
 else if (n < 0)
-printf("%d negative\n", n);
+printf("%d negative", n);
 else
-printf("%d positive\n", n);
+printf("%d positive", n);
 return (0);
 }
