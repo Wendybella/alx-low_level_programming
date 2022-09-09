@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - entry point
- * might be negative or postive,i choose postive
+ * might be negative or postive
  * Return: always 0
  */
 int main(void)
 {
-int n;
+ int n;
 if (n == 0)
 printf("%d is zero\n", n);
 else if (n < 0)
