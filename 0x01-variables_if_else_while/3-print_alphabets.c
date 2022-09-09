@@ -14,10 +14,10 @@ while ( a < 123)
 putchar (a);
 a++;
 }
-while (b < 91)
+while (B < 91)
 {
-putchar (b);
-b++;
+putchar (B);
+B++;
 }
 putchar (10);
 return (0);
