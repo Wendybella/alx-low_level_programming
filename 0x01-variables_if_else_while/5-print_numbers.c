@@ -9,6 +9,9 @@ int main()
 int n=0;
 while(n<10)
 {
-printf("n is: %d\n", n);
-n=n+1;
+putchar(n);
+n++;
+}
+putchar(10);
+return (0);
 }
