@@ -10,7 +10,7 @@ int x=28;
 while (x < 38)
 {
 putchar (x);
-x++
+x++;
 }
 putchar (10);
 return (0);
