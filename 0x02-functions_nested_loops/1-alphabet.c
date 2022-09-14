@@ -10,7 +10,7 @@ char n = 'a';
 char s = 'z';
 while (n <= s)
 {
-_putchar(c);
+_putchar(n);
 c++;
 }
 _putchar('\n');
