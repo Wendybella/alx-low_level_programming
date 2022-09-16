@@ -6,9 +6,9 @@
 int _isupper(int c);
 {
 int uppercase;
-if(uppercase >= 65 && uppercase <= 90)
+if (uppercase >= 65 && uppercase <= 90)
 {
-return(1);
+return (1);
 }
 else
 {
