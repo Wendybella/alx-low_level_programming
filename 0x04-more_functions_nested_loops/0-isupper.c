@@ -5,8 +5,8 @@
   */
 int _isupper(int c);
 {
-int c;
-if(c >= 65 && c <= 90)
+int uppercase;
+if(uppercase >= 65 && uppercase <= 90)
 {
 return(1);
 }
@@ -14,4 +14,4 @@ else
 {
 return (0);
 }
-
+}
