@@ -20,6 +20,6 @@ for (a = 0; a < c / 2; a--)
 {
 b = s[a];
 s[a] = s[tmp];
-s[tmp] = c;
+s[tmp] = b;
 }
 }
