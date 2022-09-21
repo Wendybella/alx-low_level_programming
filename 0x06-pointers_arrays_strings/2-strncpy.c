@@ -2,11 +2,10 @@
 /**
  * _strncpy - copies a string
  * @dest: string to be concatenated
- * @src: string to be apended to @dest
+ * @src: string to be apended
  * @n: number of bytes
  * Return: pointer to the resulting string
  */
-
 char *_strncpy(char *dest, char *src, int n)
 
 {
@@ -33,7 +32,8 @@ char *_strncpy(char *dest, char *src, int n)
 
 		i++;
 
-		return (dest);
-
 	}
+
+	return (dest);
+
 }
