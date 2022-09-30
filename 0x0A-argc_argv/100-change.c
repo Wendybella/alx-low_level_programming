@@ -1,5 +1,4 @@
- #include <stdio.h>
-
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - prints the minimum number of coins to
@@ -8,6 +7,7 @@
  * @argv: array of arguments
  * Return: 0 (Success), 1 (Error)
  */
+
 int main(int argc, char *argv[])
 {
 int x, i, result;
